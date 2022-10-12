@@ -1,6 +1,5 @@
 import express, { Request, Response } from "express";
 import dotenv from "dotenv";
-import jwt from "jsonwebtoken";
 import { AunthenticatedMiddleware, login } from "./auth/auth";
 import { UserAuthInfoRequest } from "./types/request";
 import { tasks } from "./models/tasks";
